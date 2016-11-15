@@ -1,0 +1,64 @@
+body {
+  background: #083C4A;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background: url("headerimg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10em;
+}
+
+section {
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  margin: 2em;
+  padding: 1em;
+  border: 1em transparent;
+  border-radius: 1em;
+  background: #95AEB2;
+}
+
+button:hover {
+  background: #78AF88;
+  color: white;
+}
+
+#firstinput {
+  margin-right: 3em;
+  padding: 1em;
+}
+
+#secondinput {
+  padding: 1em;
+}
+
+.title {
+  margin: auto;
+  text-align: center;
+  font-size: 5em;
+  color: white;
+}
+
+.subtitle {
+  padding: 3%;
+  margin: auto;
+  text-align: center;
+}
+
+.values {
+  padding: 3%;
+  margin: auto;
+  text-align: center;
+}
+
+#result {
+  padding: 3%;
+  margin: auto;
+  text-align: center;
+}
