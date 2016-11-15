@@ -1,14 +1,14 @@
 body {
-  background: #083C4A;
+  font-family: 'Righteous', cursive;
 }
 
 header {
   display: flex;
   flex-direction: column;
-  background: url("headerimg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 10em;
+  color: #2B2F46;
 }
 
 section {
@@ -21,12 +21,14 @@ button {
   padding: 1em;
   border: 1em transparent;
   border-radius: 1em;
-  background: #95AEB2;
+  background: black;
+  color: white;
+  font-family: 'Righteous', cursive;
 }
 
 button:hover {
-  background: #78AF88;
-  color: white;
+  background: white;
+  color: black;
 }
 
 #firstinput {
@@ -49,6 +51,7 @@ button:hover {
   padding: 3%;
   margin: auto;
   text-align: center;
+  color: white;
 }
 
 .values {
@@ -61,4 +64,5 @@ button:hover {
   padding: 3%;
   margin: auto;
   text-align: center;
+  color: white;
 }
